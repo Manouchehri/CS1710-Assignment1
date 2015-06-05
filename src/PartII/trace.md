@@ -1,4 +1,5 @@
 Line Number | number | d1 | d2 | d3 | Output
+------------|--------|----|----|----|--------
      1      |        |    |    |    | Please enter a three digit positive integer:
      2      |        |    |    |    |
      3      |        |    |    |    |
