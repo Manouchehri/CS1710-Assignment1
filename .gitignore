@@ -1,0 +1,21 @@
+*.swp
+
+# Property of Memorial University, do not track.
+/src/PartI/instructions.txt
+/src/PartII/Trace1.java
+/1710_A1_S15_DISTANCE.pdf
+
+# Contains personal information, do not include.
+/STUDENT.txt
+
+# Don't really need to include the Intellij project files.
+.idea/
+*.iml
+
+# Ugh, binaries
+/out/
+*.class
+*.jar
+
+# Needs to be in a .zip to submit.
+*.zip

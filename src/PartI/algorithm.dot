@@ -1,0 +1,23 @@
+/**
+ * @author David Manouchehri
+ *         Created on 6/5/15 at 2:41 PM.
+ *         All content is under the MIT License unless otherwise specified.
+ *         See LICENSE.txt for details.
+ *
+ * To generate a flowchart, use the tool dot from graphviz.
+ * e.g., dot -Tpng algorithm.dot -o algorithm.png
+ */
+
+digraph {
+    subgraph input {
+        label="User Inputs"
+    }
+
+    subgraph process {
+        label="Processing"
+    }
+
+    subgraph output {
+        label="Output"
+    }
+}
