@@ -2,7 +2,7 @@
 
 ## Overview
 
-Answer to "Part I: Algorithm" can be found in `src/PartI/`.
+Answer to "Part I: Algorithm" can be found in `src/PartI/algorithm.md`.
 
 Answer to "Part II: Tracing" can be found in `src/PartII/trace.md` (please note that `src/PartII/Trace.java` is only there for reference).
 
