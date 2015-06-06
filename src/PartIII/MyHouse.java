@@ -10,5 +10,16 @@ package PartIII;
  *         With the following additions:
  *         The program should print "Welcome To My House" before the picture is printed.
  */
+
 public class MyHouse {
+    public static void main(String[] args) {
+        System.out.println("Welcome To My House");
+        System.out.println("   +   ");
+        System.out.println("  + +  ");
+        System.out.println(" +   + ");
+        System.out.println("+-----+");
+        System.out.println("| ._. |");
+        System.out.println("| | | |");
+        System.out.print  ("+-+-+-+"); /* In the example there's no newline at the end. */
+    }
 }
