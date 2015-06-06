@@ -31,15 +31,15 @@ public class Lottery {
         double postSnow = postTax - snow;
 
         double dwarf = postSnow * dwarfShare;
-        double postDwarf = postSnow - dwarf;
+        double postDwarf = postSnow - dwarf; /* Not needed. */
 
-        double cinderella = postDwarf * cinderellaShare;
-        double rapunzel = postDwarf * rapunzelShare;
+        double cinderella = postSnow * cinderellaShare;
+        double rapunzel = postSnow * rapunzelShare;
 
-        System.out.printf("Winner's Tax: %.1f\n", tax);
-        System.out.printf("Snow White's Share: %.1f\n", snow);
-        System.out.printf("Each Dwarf Share: %.1f\n", dwarf);
-        System.out.printf("Cinderella's Share: %.1f\n", cinderella);
-        System.out.printf("Rapunzel's Share: %.1f", rapunzel);
+        System.out.printf("Winner's Tax: $%.1f\n", tax);
+        System.out.printf("Snow White's Share: $%.1f\n", snow);
+        System.out.printf("Each Dwarf Share: $%.1f\n", dwarf);
+        System.out.printf("Cinderella's Share: $%.1f\n", cinderella);
+        System.out.printf("Rapunzel's Share: $%.1f", rapunzel);
     }
 }
